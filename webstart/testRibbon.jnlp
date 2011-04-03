@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://insubstantial.github.com/insubstantialPeacock/webstart/"
+ href="testRibbon.jnlp">
+<information>
+  <title>Ribbon demo - Substance look and feel</title>
+  <vendor>https://substance-flamingo.dev.java.net/</vendor>
+  <description>Ribbon demo - Substance look and feel</description> 
+  <description kind="short">Ribbon demo - Substance look and feel</description> 
+  <offline-allowed/> 
+</information>
+<offline-allowed/>
+<security>
+  <all-permissions/>
+</security>
+<resources>
+  <property name="jnlp.packEnabled" value="true"/>
+  <j2se version="1.6+" />
+  <jar href="substance-flamingo-tst.jar"/>
+  <jar href="substance-flamingo.jar"/>
+  <extension name="trident-core" href="http://insubstantial.github.com/halberd/webstart/trident-core.jnlp"/>
+  <extension name="substance-all" href="http://insubstantial.github.com/insubstantial/webstart//substance-all.jnlp"/>
+  <extension name="flamingo-all" href="http://insubstantial.github.com/peacock/webstart/flamingo-all.jnlp"/>
+  <jar href="http://insubstantial.github.com/insubstantial/webstart/forms-1.2.0.jar"/>
+</resources>
+<application-desc main-class="test.substance.ribbon.NewCheckRibbon" />
+</jnlp>
